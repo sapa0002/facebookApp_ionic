@@ -26,7 +26,7 @@ angular.module('starter', ['ionic', 'starter.services',
 .config(function ($authProvider) {
 
         $authProvider.facebook({
-            clientId: '1666137766978530',
+            clientId: '',
             scope: 'email, public_profile, user_photos, user_friends',
             responseType: 'token'
         });
